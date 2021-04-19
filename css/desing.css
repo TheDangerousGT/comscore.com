@@ -87,3 +87,13 @@ body{
     height: 30px;
     text-align:center;
 }
+@media all and (max-width: 780px){
+    .container{
+        width: 340px;
+        height: auto;
+        align-items: center;
+        margin-bottom: 20%;
+        margin-left: 10px;
+        position: absolute;
+    }
+}
