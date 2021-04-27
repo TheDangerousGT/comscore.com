@@ -7,7 +7,6 @@ body{
 }
 
 .container{
-    margin-left: 600px;
     width: 350px;
     height: auto;
     background-color: white;
@@ -33,6 +32,7 @@ body{
 .coms{
     margin-top: -15px;
     margin-left: 15px;
+    font-weight: bold;
 }
 
 .info{
@@ -87,7 +87,8 @@ body{
     height: 30px;
     text-align:center;
 }
-@media all and (max-width: 780px){
+
+@media all and (max-width: 1020px){
     .container{
         width: 340px;
         height: auto;
@@ -96,4 +97,8 @@ body{
         margin-left: 10px;
         position: absolute;
     }
+}
+
+.align-items-start{
+    position: absolute;
 }
